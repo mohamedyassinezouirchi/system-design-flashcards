@@ -1,0 +1,77 @@
+[
+  {
+    "topic": "Caching",
+    "question": "What is cache-aside?",
+    "answer": "The application reads from cache first, fetches from storage on a miss, then populates the cache."
+  },
+  {
+    "topic": "Caching",
+    "question": "What is a cache stampede?",
+    "answer": "Many requests regenerate the same expired cache entry concurrently, overloading the backend."
+  },
+  {
+    "topic": "Caching",
+    "question": "What does a TTL control?",
+    "answer": "How long a cached entry remains valid before it expires."
+  },
+  {
+    "topic": "Databases",
+    "question": "What is a database index?",
+    "answer": "An auxiliary data structure that speeds up some reads at the cost of storage and write overhead."
+  },
+  {
+    "topic": "Databases",
+    "question": "What is database replication?",
+    "answer": "Maintaining copies of data on multiple nodes to support availability or read scaling."
+  },
+  {
+    "topic": "Databases",
+    "question": "What is the main trade-off of sharding?",
+    "answer": "It distributes data and load but complicates joins, transactions, and rebalancing."
+  },
+  {
+    "topic": "Distributed Systems",
+    "question": "What is eventual consistency?",
+    "answer": "Replicas may temporarily differ but converge when updates stop and propagation completes."
+  },
+  {
+    "topic": "Distributed Systems",
+    "question": "What is an idempotent operation?",
+    "answer": "Repeating it has the same intended effect as performing it once."
+  },
+  {
+    "topic": "Distributed Systems",
+    "question": "What problem does a message queue help with?",
+    "answer": "It decouples producers from consumers and buffers work for asynchronous processing."
+  },
+  {
+    "topic": "Networking",
+    "question": "What does a load balancer do?",
+    "answer": "It distributes incoming requests across multiple healthy backend instances."
+  },
+  {
+    "topic": "Networking",
+    "question": "What is a CDN?",
+    "answer": "A distributed network that serves content closer to users, often reducing latency."
+  },
+  {
+    "topic": "Networking",
+    "question": "Why use a timeout?",
+    "answer": "To bound the time spent waiting for an operation that may stall."
+  },
+  {
+    "topic": "Security",
+    "question": "What is least privilege?",
+    "answer": "Give users and services only the permissions needed for their responsibilities."
+  },
+  {
+    "topic": "Security",
+    "question": "What is rate limiting?",
+    "answer": "Restricting request volume within a defined window to protect a service."
+  },
+  {
+    "topic": "Security",
+    "question": "What is defense in depth?",
+    "answer": "Using multiple independent safeguards so one failure does not eliminate all protection."
+  }
+]
